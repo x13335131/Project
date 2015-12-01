@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="dance.xsl" type="text/xsl"?>
+<catalog>
+	<song>
+		<position>1</position>
+		<title>Thriller</title>
+		<artist>Michael Jackson</artist>
+		<album>Studio Album</album>
+		<released>1982</released>
+		
+	</song>
+	<song>
+		<position>2</position>
+		<title>I Want It That Way</title>
+		<artist>Backstreet Boys</artist>
+		<album>Millennium</album>
+		<released>1999</released>
+		
+	</song>
+	<song>
+		<position>3</position>
+		<title>Billie Jean</title>
+		<artist>Michael Jackson</artist>
+		<album>Thriller</album>
+		<released>1982</released>
+		
+	</song>
+	<song>
+		<position>4</position>
+		<title>Bad</title>
+		<artist>Michael Jackson</artist>
+		<album>Bad</album>
+		<released>1987</released>
+	</song>
+	<song>
+		<position>5</position>
+		<title>Poker Face</title>
+		<artist>Lady Gaga</artist>
+		<album>The Fame</album>
+		<released>2008</released>
+		
+	</song>
+	<song>
+		<position>6</position>
+		<title>I Will Always Love You</title>
+		<artist>Whitney Houston</artist>
+		<album>The Body Guard</album>
+		<released>2000</released>
+		
+	</song>
+	<song>
+		<position>7</position>
+		<title>Written In The Stars</title>
+		<artist>Tinie Tempah</artist>
+		<album>Disc-Overy</album>
+		<released>2010</released>
+		
+	</song>
+	<song>
+		<position>8</position>
+		<title>Call Me Maybe</title>
+		<artist>Carly Rae Jepsen</artist>
+		<album>Curiosity</album>
+		<released>2011</released>
+		
+	</song>
+	<song>
+		<position>9</position>
+		<title>Baby One More Time</title>
+		<artist>Britney Spears</artist>
+		<album>Studio Album</album>
+		<released>1999</released>
+		
+	</song>
+	<song>
+		<position>10</position>
+		<title>Party In The U.S.A</title>
+		<artist>Miley Cyrus</artist>
+		<album>The Time Of Our Lives</album>
+		<released>2009</released>
+		
+	</song>
+</catalog>
+
