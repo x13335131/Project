@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<catalog>
+	<song>
+		<position>1</position>
+		<title>Hello</title>
+		<artist>Adele</artist>
+		<genre>Soul</genre>
+	</song>
+	<song>
+		<position>2</position>
+		<title>Sorry</title>
+		<artist>Justin Bieber</artist>
+		<genre>Dance • Pop</genre>
+	</song>
+	<song>
+		<position>3</position>
+		<title>Sax</title>
+		<artist>Fleur East</artist>
+		<genre>Disco</genre>
+	</song>
+	<song>
+		<position>4</position>
+		<title>Take Me Home</title>
+		<artist>Jess Glynne</artist>
+		<genre>Pop • Soul</genre>
+	</song>
+	<song>
+		<position>5</position>
+		<title>Never Forget You</title>
+		<artist>Zara Larsson &amp; MNEK</artist>
+		<genre>Dance • Pop</genre>
+	</song>
+	<song>
+		<position>6</position>
+		<title>In2</title>
+		<artist>WSTRN</artist>
+		<genre>R &amp; B</genre>
+	</song>
+	<song>
+		<position>7</position>
+		<title>Writings On The Wall</title>
+		<artist>Sam Smith</artist>
+		<genre>Orchestral pop</genre>
+	</song>
+	<song>
+		<position>8</position>
+		<title>Love Yourself</title>
+		<artist>Justin Bieber</artist>
+		<genre>Pop</genre>
+	</song>
+	<song>
+		<position>9</position>
+		<title>Love Me Like You</title>
+		<artist>Little Mix</artist>
+		<genre>Pop</genre>
+	</song>
+	<song>
+		<position>10</position>
+		<title>What Do You Mean?</title>
+		<artist>Justin Bieber</artist>
+		<genre>Pop • Tropical House</genre>
+	</song>
+</catalog>
+
