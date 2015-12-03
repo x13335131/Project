@@ -2,10 +2,10 @@
 
 // Load the XML source
 $xml = new DOMDocument;
-$xml->load('R&B.xml');
+$xml->load('blues.xml');
 $xsl = new DOMDocument;
 $xsl->substituteEntities = true; 
-$xsl->load('R&B.xsl');
+$xsl->load('blues.xsl');
 
 // Configure the transformer
 $proc = new XSLTProcessor;

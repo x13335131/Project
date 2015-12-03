@@ -66,16 +66,16 @@
 							 <a href="index.xml">Home</a>
 						</li>
 						<li class="page-scroll">
-							<a href="dance.xml">Dance</a>
+							<a href="science fiction.xml">Dance</a>
 						</li>
 						<li class="page-scroll">
-							<a href="pop.xml">Pop</a>
+							<a href="horror.xml">Trance</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.xml">Blues</a>
+							 <a href="thriller.xml">Pop</a>
 						</li>
 						<li class="page-scroll">
-							<a href="blog.xml">Blog</a>
+							<a href="action.xml">R&amp;B</a>
 						</li>
 					</ul>
 				</div>
@@ -100,7 +100,8 @@
 							  <th style="text-align:left">Position</th>
 							  <th style="text-align:left">Song Title</th>
 							  <th style="text-align:left">Artist</th>
-							  <th style="text-align:left">Genre</th>
+							  <th style="text-align:left">Album</th>
+							  <th style="text-align:left">Released Date</th>
 							  
 						   </tr>
 						   <xsl:for-each select="catalog/song">
@@ -115,15 +116,19 @@
 									<xsl:value-of select="artist" />
 								 </td>
 								 <td>
-									<xsl:value-of select="genre" />
+									<xsl:value-of select="album" />
 								 </td>
+								 <td>
+									<xsl:value-of select="released" />
+								 </td>
+								
 								 
 							  </tr>
 						   </xsl:for-each>
 						</table>
 					</div>
 					<div class="col-md-6">
-						<img src="images/adele.jpg" alt="Adele" height="420" width="500" align="right"/> <br /> <br />
+						<img src="images/theweeknd.jpg" alt="the weeknd" height="420" width="500" align="right"/> <br /> <br />
 					</div>
 				</div>
 				<div class="row">
