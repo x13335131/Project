@@ -2,10 +2,10 @@
 
 // Load the XML source
 $xml = new DOMDocument;
-$xml->load('index.xml');
+$xml->load('pop.xml');
 $xsl = new DOMDocument;
 $xsl->substituteEntities = true; 
-$xsl->load('index.xsl');
+$xsl->load('pop.xsl');
 
 // Configure the transformer
 $proc = new XSLTProcessor;

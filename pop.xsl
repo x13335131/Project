@@ -64,16 +64,16 @@
 							 <a href="index.xml">Home</a>
 						</li>
 						<li class="page-scroll">
-							<a href="science fiction.xml">Dance</a>
+							<a href="dance.xml">Dance</a>
 						</li>
 						<li class="page-scroll">
-							<a href="horror.xml">Trance</a>
+							<a href="pop.xml">Pop/a>
 						</li>
 						<li class="page-scroll">
-							 <a href="thriller.xml">Pop</a>
+							 <a href="R&B.xml">R &amp; B</a>
 						</li>
 						<li class="page-scroll">
-							<a href="action.xml">R&amp;B</a>
+							<a href="blog.xml">Blog</a>
 						</li>
 					</ul>
 				</div>

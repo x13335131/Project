@@ -8,8 +8,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 						<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"  type="text/css"/>
 
@@ -18,8 +18,6 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.min.js" type="text/JavaScript"></script>
-
-		
 
 		<script> 
 		$(document).ready(function(){
@@ -72,10 +70,10 @@
 							<a href="pop.xml">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="thriller.xml">R&amp;B</a>
+							 <a href="R&B.xml">R&amp;B</a>
 						</li>
 						<li class="page-scroll">
-							<a href="action.xml">Hip-Hop/ Rap</a>
+							<a href="blog.xml">Blog</a>
 						</li>
 					</ul>
 				</div>
