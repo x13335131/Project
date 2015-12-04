@@ -54,26 +54,26 @@
 					<a class="navbar-brand" href="#page-top">TMH</a>
 				</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
+					<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="hidden">
 							<a href="#page-top"></a>
 						</li>
 						<li class="page-scroll">
-							 <a href="index.xml">Home</a>
+							 <a href="index.php">Home</a>
 						</li>
 						<li class="page-scroll">
-							<a href="dance.xml">Dance</a>
+							<a href="dance.php">Dance</a>
 						</li>
 						<li class="page-scroll">
-							<a href="pop.xml">pop</a>
+							<a href="pop.php">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.xml">Blues</a>
+							 <a href="blues.php">Blues</a>
 						</li>
 						<li class="page-scroll">
-							<a href="blog.xml">blog</a>
+							<a href="blog.php">Blog</a>
 						</li>
 					</ul>
 				</div>

@@ -61,19 +61,19 @@
 							<a href="#page-top"></a>
 						</li>
 						<li class="page-scroll">
-							 <a href="index.xml">Home</a>
+							 <a href="index.php">Home</a>
 						</li>
 						<li class="page-scroll">
-							<a href="dance.xml">Dance</a>
+							<a href="dance.php">Dance</a>
 						</li>
 						<li class="page-scroll">
-							<a href="pop.xml">Pop</a>
+							<a href="pop.php">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.xml">Blues</a>
+							 <a href="blues.php">Blues</a>
 						</li>
 						<li class="page-scroll">
-							<a href="blog.xml">Blog</a>
+							<a href="blog.php">Blog</a>
 						</li>
 					</ul>
 				</div>
