@@ -70,7 +70,7 @@
 							<a href="pop.xml">pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="rnb.xml">R &amp; B</a>
+							 <a href="blues.xml">Blues</a>
 						</li>
 						<li class="page-scroll">
 							<a href="blog.xml">blog</a>

@@ -19,6 +19,8 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.min.js" type="text/JavaScript"></script>
 
+		
+
 		<script> 
 		$(document).ready(function(){
 			$("#flip").click(function(){
@@ -98,7 +100,8 @@
 							  <th style="text-align:left">Position</th>
 							  <th style="text-align:left">Song Title</th>
 							  <th style="text-align:left">Artist</th>
-							  <th style="text-align:left">Genre</th>
+							  <th style="text-align:left">Album</th>
+							  <th style="text-align:left">Released Date</th>
 							  
 						   </tr>
 						   <xsl:for-each select="catalog/song">
@@ -113,15 +116,19 @@
 									<xsl:value-of select="artist" />
 								 </td>
 								 <td>
-									<xsl:value-of select="genre" />
+									<xsl:value-of select="album" />
 								 </td>
+								 <td>
+									<xsl:value-of select="released" />
+								 </td>
+								
 								 
 							  </tr>
 						   </xsl:for-each>
 						</table>
 					</div>
 					<div class="col-md-6">
-						<img src="images/adele.jpg" alt="Adele" height="420" width="500" align="right"/> <br /> <br />
+						<img src="images/theweeknd.jpg" alt="the weeknd" height="420" width="500" align="right"/> <br /> <br />
 					</div>
 				</div>
 				<div class="row">
@@ -149,9 +156,7 @@
 					<div class="panel panel-default">
 						  <div class="panel-heading">Video</div>
 						  <div class="panel-body">
-							<iframe  width="500" height="315" align="right"
-								src="https://www.youtube.com/embed/kz99xXhbpXQ">
-							</iframe>
+							<iframe width="854" height="480" src="https://www.youtube.com/embed/dqt8Z1k0oWQ" frameborder="0" allowfullscreen></iframe>
 						  </div>
 						</div>
 					</div>

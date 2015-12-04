@@ -5,6 +5,7 @@
 	<head>
 		<title>TOP 10 MUSIC HITS</title>
 		
+		<script type="text/javascript" src="js/guessingGame.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -40,7 +41,7 @@
 		</script>
 				
 	</head>
-	<body>		
+	<body onload="process()">		
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -67,10 +68,10 @@
 							<a href="dance.xml">Dance</a>
 						</li>
 						<li class="page-scroll">
-							<a href="pop.xml">Pop/a>
+							<a href="pop.xml">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="R&B.xml">R &amp; B</a>
+							 <a href="blues.xml">Blues</a>
 						</li>
 						<li class="page-scroll">
 							<a href="blog.xml">Blog</a>
@@ -161,7 +162,10 @@
 						</div>
 					</div>
 				</div>			
-			
+				<h3>Heres a quick game if you're bored, Guess the team here at TMH's top 5 favourite pop singers of all time</h3>
+		Guess a singer:
+		<input type="text" id="userInput" />
+		<div id="underInput" />
 			</div>
 				<!-- if stuck for video embeddding try this <object width="420" height="315"
 				data="http://www.youtube.com/embed/XGSy3_Czz8k">
