@@ -38,7 +38,36 @@
 			});
 		});
 		</script>
-				
+			<script>
+		(function($)
+		{
+    	$(document).ready(function()
+		 {
+        $.ajaxSetup(
+        {
+            cache: false,
+            beforeSend: function() {
+                $('#content').hide();
+                $('#loading').show();
+            },
+            complete: function() {
+                $('#loading').hide();
+                $('#content').show();
+            },
+            success: function() {
+                $('#loading').hide();
+                $('#content').show();
+            }
+        });
+        var $container = $("#content");
+        $container.load("rss-feed-data.php");
+        var refreshId = setInterval(function()
+        {
+            $container.load('rss-feed-data.php');
+        }, 9000);
+		 });
+		})(jQuery);
+	</script>	
 	</head>
 	<body>		
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -120,8 +149,9 @@
 						   </xsl:for-each>
 						</table>
 					</div>
+						
 					<div class="col-md-6">
-						<img src="images/adele.jpg" alt="Adele" height="420" width="500" align="right"/> <br /> <br />
+						<img src="images/adele.jpg" alt="Adele" height="550" width="500" align="right"/> <br /> <br />
 					</div>
 				</div>
 				<div class="row">
@@ -130,9 +160,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading" role="tab" id="headingTwo">
 								  <h4 class="panel-title">
-									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									  Upcoming Gigs!
-									</a>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9526.77703816103!2d-6.243568!3d53.348729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d51b774ee7fa935!2sNational+College+of+Ireland!5e0!3m2!1sen!2sie!4v1417742188881" width="520" height="300" style="border:1"></iframe>
 								  </h4>
 								</div>
 								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -152,11 +180,12 @@
 							<iframe  width="500" height="315" align="right"
 								src="https://www.youtube.com/embed/kz99xXhbpXQ">
 							</iframe>
+						
 						  </div>
 						</div>
 					</div>
 				</div>			
-			
+				
 			</div>
 				<!-- if stuck for video embeddding try this <object width="420" height="315"
 				data="http://www.youtube.com/embed/XGSy3_Czz8k">
