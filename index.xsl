@@ -80,7 +80,7 @@
 							<a href="pop.php">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.php">Blues</a>
+							 <a href="blues.php">R &amp; B</a>
 						</li>
 						<li class="page-scroll">
 							<a href="player.php">Audio Player</a>
@@ -152,10 +152,10 @@
 											</a>
 								  	    	</h4>
 										</div>
-								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-								  <div class="panel-body">
-									<table id="demo" class="table table-striped table-bordered table-hover">
-									</table>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								  		<div class="panel-body">
+										<table id="demo" class="table table-striped table-bordered table-hover">
+										</table>
 									<script type="text/javascript" src="js/index.js"></script>
 								</div>
 							  </div>
@@ -166,7 +166,7 @@
 				</div>
 					<div class="col-md-6">
 					<div class="panel panel-default">
-						  <div class="panel-heading"> <b>Video </b> </div>
+						  <div class="panel-heading"> <b> Video </b> </div>
 						  <div class="panel-body">
 							<iframe  width="500" height="315" align="right"
 								src="https://www.youtube.com/embed/kz99xXhbpXQ">

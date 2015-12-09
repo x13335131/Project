@@ -71,7 +71,7 @@
 							<a href="pop.php">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.php">Blues</a>
+							 <a href="blues.php">R &amp; B</a>
 						</li>
 						<li class="page-scroll">
 							<a href="player.php">Audio Player</a>
