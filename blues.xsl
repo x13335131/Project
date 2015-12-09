@@ -28,15 +28,15 @@
 		</script>
  
 		<script>
-		$(document).ready(function(){
-			$("#thisWeek").fadeToggle("slow");
-				$("img").fadeToggle("slow");
-			$("button").click(function(){
-				$("#thisWeek").fadeToggle("slow");
-				$("img").fadeToggle("slow");
+		<!--$(document).ready(function(){-->
+		<!--	$("#thisWeek").fadeToggle("slow");-->
+		<!--		$("img").fadeToggle("slow");-->
+		<!--	$("button").click(function(){-->
+		<!--		$("#thisWeek").fadeToggle("slow");-->
+		<!--		$("img").fadeToggle("slow");-->
 				
-			});
-		});
+		<!--	});-->
+		<!--});-->
 		</script>
 		<script>
 		$(document).ready(function(){
@@ -102,77 +102,8 @@
 				<h3>This weeks top 10 hits!</h3>
 			
 				<div class="row">
-					<div class="col-md-6">
-						<button class="btn btn-primary">Click to reveal this weeks top 10!</button><br /><br />
+					<div class="col-md-12">
 						<table id="thisWeek" border=".5" class="table table-bordered">
-						   <tr bgcolor="#C8C8C8">
-							  <th style="text-align:left">Position</th>
-							  <th style="text-align:left">Song Title</th>
-							  <th style="text-align:left">Artist</th>
-							  <th style="text-align:left">Album</th>
-							  <th style="text-align:left">Released Date</th>
-							  
-						   </tr>
-						   <xsl:for-each select="catalog/song">
-							  <tr>
-								 <td>
-									<xsl:value-of select="position" />
-								 </td>
-								 <td>
-									<xsl:value-of select="title" />
-								 </td>
-								 <td>
-									<xsl:value-of select="artist" />
-								 </td>
-								 <td>-
-									<xsl:value-of select="album" />
-								 </td>
-								 <td>
-									<xsl:value-of select="released" />
-								 </td>
-								
-								 
-							  </tr>
-						   </xsl:for-each>
-						</table>
-					</div>
-						<div class="col-md-6">
-						<div class="panel panel-default">
-						  <div class="panel-heading">Video</div>
-						  	<div class="panel-body">
-							<iframe width="500" height="315" algin="right" src="https://www.youtube.com/embed/dqt8Z1k0oWQ"></iframe>
-						  </div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-							<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingTwo">
-								  <h4 class="panel-title">
-									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									  Upcoming Concerts!
-									</a>
-								  </h4>
-								</div>
-								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-								  <div class="panel-body">
-									<table id="demo" class="table table-striped table-bordered table-hover">
-									</table>
-									<script type="text/javascript" src="js/blues.js"></script>
-									
-								</div>
-							  </div>
-							</div>
-						</div>
-					</div>		
-					
-
-				</div>			
-					<h3>This weeks top 10 hits!</h3>
-				
-					<table id="thisWeek" border=".5" class="table table-bordered">
 						   <tr bgcolor="#C8C8C8">
 							  <th style="text-align:left">Postion </th>
 							  <th style="text-align:left">Song Title</th>
@@ -203,13 +134,50 @@
 							  </tr>
 						   </xsl:for-each>
 						</table>
+					</div>
 					
-				<div id="underInput" />
 				</div>
-				<!-- if stuck for video embeddding try this <object width="420" height="315"
-				data="http://www.youtube.com/embed/XGSy3_Czz8k">
-				</object>-->
-
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingTwo">
+								  <h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  Upcoming Concerts!
+									</a>
+								  </h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								  <div class="panel-body">
+									<table id="demo" class="table table-striped table-bordered table-hover">
+									</table>
+									<script type="text/javascript" src="js/blues.js"></script>
+									
+								</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-default">
+						  <div class="panel-heading">Video</div>
+						  	<div class="panel-body">
+							<iframe width="500" height="315" algin="right" src="https://www.youtube.com/embed/dqt8Z1k0oWQ"></iframe>
+						  </div>
+						</div>
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-md-5">
+						</div>
+						<div class="col-md-2">
+							
+						</div>
+						<div class="col-md-5">
+						</div>
+					</div>
+				</div>
 			</div>
          </body>
       </html>
