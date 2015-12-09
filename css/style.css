@@ -9,6 +9,39 @@ p{
     font-family: Century Gothic, sans-serif;
 }
 
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.row3, .row3 a{
+color:#919191; 
+background-color:#232323;
+}
+
+div.wrapper {
+display:block; 
+width:100%; 
+margin:0; 
+padding:0; 
+text-align:left;
+}
+
+
+
+.clear:after{
+content:"."; 
+display:block; 
+height:0; 
+clear:both; 
+visibility:hidden; 
+line-height:0;
+}
+#copyright{padding:20px 0;}
+#copyright p{margin:0; padding: 0;}
+
+
+.add{margin: 15px;}
+.add a{display: inline-block; transition: all 0.5s;}
+.add a:hover {transform: rotate(360deg);}
 
 .clearfix{
 	clear:both;

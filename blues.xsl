@@ -96,10 +96,9 @@
 			<!--main piece-->
 			<div id='main'>
 			
-				<p>Hello and welcome to *website name*. Here we love music! keep up to date with the latest hits, 
-				check in on our weekly top 10 and find out more about upcoming gigs!!</p>
+				<h1 align="center"> R &amp; B Music Page!</h1>
 				
-				<h3>Our top 10 R And B hits</h3>
+				<h2>Our top 10 R &amp; B hits</h2>
 			
 				<div class="row">
 					<div class="col-md-12">
@@ -138,14 +137,13 @@
 					
 				</div>
 				<div class="row">
-					<div class="col-md-6">
-						
+						<div class="col-md-6">
 						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 							<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingTwo">
+								<div class="panel-heading" role="tab" id="headingTwo">
 								  <h4 class="panel-title">
 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									  Upcoming Concerts!
+										<b> Popular Dublin Concerts! </b>
 									</a>
 								  </h4>
 								</div>
@@ -154,18 +152,16 @@
 									<table id="demo" class="table table-striped table-bordered table-hover">
 									</table>
 									<script type="text/javascript" src="js/blues.js"></script>
-									
 								</div>
 							  </div>
 							</div>
 						</div>
-	
-					</div>
+					</div>		
 					<div class="col-md-6">
 						<div class="panel panel-default">
-						  <div class="panel-heading">Video</div>
+						  <div class="panel-heading"> <b>Video </b></div>
 						  	<div class="panel-body">
-							<iframe width="500" height="315" algin="right" src="https://www.youtube.com/embed/dqt8Z1k0oWQ"></iframe>
+							<iframe width="510" height="330" algin="right" src="https://www.youtube.com/embed/dqt8Z1k0oWQ"></iframe>
 						  </div>
 						</div>
 					</div>
@@ -184,7 +180,20 @@
 						</div>
 					</div>
 				</div>
-			</div>
+				</div>
+		
+			<div class="add" style="text-align:center;">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" alt="" /></a>
+					<a href="https://accounts.google.com"><img src="images/googlep.png" alt="" /></a>
+					<a href="https://twitter.com/"><img src="images/twitter.png" alt="" /></a>
+					<a href="https://www.youtube.com/"><img src="images/youtube.png" alt="" /></a>
+					</div>
+					<div class="wrapper row3">
+					  <footer id="copyright" class="clear">
+					    <p class="fl_left">Copyright 2015 - All Rights Reserved - <a href="index.xsl"> TMH </a></p>
+					    <p class="fl_right">Design by Louise,Bdoor and Paul </p>
+					  </footer>
+					</div>
          </body>
       </html>
    </xsl:template>

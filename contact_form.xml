@@ -48,5 +48,10 @@
     <phone>0854577893</phone>
     <message>would love to win these for my gf!</message>
   </contact>
-  
+  <contact>
+    <name></name>
+    <email></email>
+    <phone></phone>
+    <message></message>
+  </contact>
 </contact_form>
