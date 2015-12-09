@@ -18,6 +18,7 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.min.js" type="text/JavaScript"></script>
+		<script src="js/ajax.js"></script>
 
 		<script> 
 		$(document).ready(function(){
@@ -47,7 +48,6 @@
 		    });
 		});
 	</script>
-				
 	</head>
 	<body onload="process()">		
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -99,7 +99,7 @@
 				<p>Hello and welcome to *website name*. Here we love music! keep up to date with the latest hits, 
 				check in on our weekly top 10 and find out more about upcoming gigs!!</p>
 				
-				<h3>This weeks top 10 hits!</h3>
+				<h3>Our top 10 R And B hits</h3>
 			
 				<div class="row">
 					<div class="col-md-12">
@@ -139,6 +139,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
+						
 						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 							<div class="panel panel-default">
 									<div class="panel-heading" role="tab" id="headingTwo">
@@ -158,6 +159,7 @@
 							  </div>
 							</div>
 						</div>
+	
 					</div>
 					<div class="col-md-6">
 						<div class="panel panel-default">
@@ -173,6 +175,10 @@
 						</div>
 						<div class="col-md-2">
 							
+							<p>Last modified: <span id="ajax"></span></p>
+
+							<button onclick="loadDoc('ajax_info.txt')">Get "Last-Modified" information</button>
+
 						</div>
 						<div class="col-md-5">
 						</div>
