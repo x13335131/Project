@@ -73,7 +73,7 @@
 							 <a href="blues.php">Blues</a>
 						</li>
 						<li class="page-scroll">
-							<a href="blog.php">Blog</a>
+							<a href="player.php">Audio Player</a>
 						</li>
 					</ul>
 				</div>

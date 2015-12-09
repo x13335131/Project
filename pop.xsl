@@ -10,7 +10,7 @@
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-						<!-- Latest compiled and minified CSS -->
+		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"  type="text/css"/>
 
 		<!-- Optional theme -->
@@ -18,6 +18,7 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.min.js" type="text/JavaScript"></script>
+		<script type="text/javascript" src="js/guessingGame.js"></script>
 
 		<script> 
 		$(document).ready(function(){
@@ -73,7 +74,7 @@
 							 <a href="blues.php">Blues</a>
 						</li>
 						<li class="page-scroll">
-							<a href="blog.php">Blog</a>
+							<a href="player.php">Audio Player</a>
 						</li>
 					</ul>
 				</div>
@@ -86,13 +87,13 @@
 			<!--main piece-->
 			<div id='main'>
 			
-				<p>Hello and welcome to *website name*. Here we love music! keep up to date with the latest hits, 
-				check in on our weekly top 10 and find out more about upcoming gigs!!</p>
-				<h3>This weeks top 10 hits!</h3>
+				<h1>WE LOVE POP MUSIC!</h1>
+				
+				<h3>Our top 10 pop hits!</h3>
 			
 				<div class="row">
 					<div class="col-md-6">
-						<button class="btn btn-primary">Click to reveal this weeks top 10!</button><br /><br />
+						<button class="btn btn-primary">Click to reveal our top 10 pop hits!</button><br /><br />
 						<table id="thisWeek" border=".5" class="table table-bordered">
 						   <tr bgcolor="#C8C8C8">
 							  <th style="text-align:left">Position</th>
@@ -126,6 +127,82 @@
 						</table>
 					</div>
 					<div class="col-md-6">
+						<h5>Bored? Play <b>guess the singer.</b></h5><p>Here at TMH we have picked our top 5 favourite pop singers of all time, can you guess them?</p>
+					Guess a singer:
+				<input type="text" id="userInput" />
+				<div id="underInput" /> <br/>
+				Stuck? have a listen to the following tracks!
+				<!--music files-->						
+						<audio
+							controls="controls"
+							height ="50px"
+							width="100px">
+							
+							<source
+							  src="MP3files/justin.mp3"
+							  type="audio/mpeg" />
+							  <embed
+							  height="50px"
+							  width="100px"
+							  src="MP3files/justin.mp3"/>
+						</audio>
+						<audio
+							controls="controls"
+							height ="50px"
+							width="100px">
+							
+							<source
+							  src="MP3files/cascada.mp3"
+							  type="audio/mpeg" />
+							  <embed
+							  height="50px"
+							  width="100px"
+							  src="MP3files/cascada.mp3"/>
+						</audio>
+						<audio
+							controls="controls"
+							height ="50px"
+							width="100px">
+							
+							<source
+							  src="MP3files/britney.mp3"
+							  type="audio/mpeg" />
+							  <embed
+							  height="50px"
+							  width="100px"
+							  src="MP3files/britney.mp3"/>
+						</audio>
+						<audio
+							controls="controls"
+							height ="50px"
+							width="100px">
+							
+							<source
+							  src="MP3files/ladygaga.mp3"
+							  type="audio/mpeg" />
+							  <embed
+							  height="50px"
+							  width="100px"
+							  src="MP3files/ladygaga.mp3"/>
+						</audio>
+						 <audio
+							controls="controls"
+							height ="50px"
+							width="100px">
+							
+							<source
+							  src="MP3files/mj.mp3"
+							  type="audio/mpeg" />
+							  <embed
+							  height="50px"
+							  width="100px"
+							  src="MP3files/mj.mp3"/>
+						</audio> <br /> <br />
+ 
+ 
+ 
+ 
+				
 						<img src="images/MJ.png" alt="Michael Jackson" height="420" width="500" align="right"/> <br /> <br />
 					</div>
 				</div>
@@ -155,16 +232,13 @@
 						  <div class="panel-heading">Video</div>
 						  <div class="panel-body">
 							<iframe  width="500" height="315" align="right"
-								src="https://www.youtube.com/embed/kz99xXhbpXQ">
+								src="https://www.youtube.com/embed/4sGZR7DsgWg">
 							</iframe>
 						  </div>
 						</div>
 					</div>
 				</div>			
-				<h3>Heres a quick game if you're bored, Guess the team here at TMH's top 5 favourite pop singers of all time</h3>
-		Guess a singer:
-		<input type="text" id="userInput" />
-		<div id="underInput" />
+				
 			</div>
 				<!-- if stuck for video embeddding try this <object width="420" height="315"
 				data="http://www.youtube.com/embed/XGSy3_Czz8k">

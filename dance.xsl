@@ -3,6 +3,7 @@
 <xsl:template match="/">
 <html>
 	<head>
+		
 		<title>Dance</title>
 		
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -73,7 +74,7 @@
 							 <a href="blues.php">Blues</a>
 						</li>
 						<li class="page-scroll">
-							<a href="blog.php">Blog</a>
+							<a href="player.php"> Audio Player</a>
 						</li>
 					</ul>
 				</div>
@@ -159,6 +160,7 @@
 							</iframe>
 						  </div>
 						</div>
+	
 					</div>
 				</div>			
 			
