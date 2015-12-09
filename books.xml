@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <rss version="2.0">
-    <?xml-stylesheet href="rss.xsl" type="text/xsl"?>
 <channel>
     <title>Example RSS Feed</title>
     <link>/home/ubuntu/workspace/rss.xml</link>
@@ -19,5 +18,5 @@
     <description> </description>
 </item>
 
-<item><title/><link>product.xml</link><description>, , </description></item></channel>
-</rss>
+<genre>CHANGED</genre></channel>
+<book><author/><title>XML Rocks</title><genre>CHANGED</genre><price>100 $</price></book></rss>

@@ -13,4 +13,26 @@ $proc->importStyleSheet($xsl); // attach the xsl rules
 
 echo $proc->transformToXML($xml);
 
+<<<<<<< HEAD
 ?> 
+<!--=======-->
+
+<!--$feed_url = 'http://blogoola.com/blog/feed/';-->
+<!--$content = file_get_contents($feed_url);-->
+<!--$x = new SimpleXmlElement($content);-->
+<!--$feedData = '';-->
+<!--$date = date("Y-m-d H:i:s");-->
+
+<!--//output-->
+<!--$feedData .=  "-->
+<!--";-->
+<!--foreach($x->channel->item as $entry) {-->
+<!--    $feedData .= "" . $entry->title . "";-->
+<!--}-->
+<!--$feedData .= "";-->
+<!--$feedData .= "Data current as at: ".$date."";-->
+
+<!--echo $feedData;-->
+<!--?>-->
+
+<!-->>>>>>> e155b1cf6facb163e0b71baa7e00b3b2f2f26099-->

@@ -38,9 +38,18 @@
 			});
 		});
 		</script>
+		<script>
+		$(document).ready(function(){
+		    $("button").click(function(){
+		        $("#p1").css("color", "red")
+		            .slideUp(2050)
+		            .slideDown(2000);
+		    });
+		});
+	</script>
 				
 	</head>
-	<body>		
+	<body onload="process()">		
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -53,8 +62,9 @@
 					</button>
 					<a class="navbar-brand" href="#page-top">TMH</a>
 				</div>
+	
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
+					<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="hidden">
@@ -88,6 +98,7 @@
 			
 				<p>Hello and welcome to *website name*. Here we love music! keep up to date with the latest hits, 
 				check in on our weekly top 10 and find out more about upcoming gigs!!</p>
+				
 				<h3>This weeks top 10 hits!</h3>
 			
 				<div class="row">
@@ -98,7 +109,8 @@
 							  <th style="text-align:left">Position</th>
 							  <th style="text-align:left">Song Title</th>
 							  <th style="text-align:left">Artist</th>
-							  <th style="text-align:left">Genre</th>
+							  <th style="text-align:left">Album</th>
+							  <th style="text-align:left">Released Date</th>
 							  
 						   </tr>
 						   <xsl:for-each select="catalog/song">
@@ -112,26 +124,35 @@
 								 <td>
 									<xsl:value-of select="artist" />
 								 </td>
-								 <td>
-									<xsl:value-of select="genre" />
+								 <td>-
+									<xsl:value-of select="album" />
 								 </td>
+								 <td>
+									<xsl:value-of select="released" />
+								 </td>
+								
 								 
 							  </tr>
 						   </xsl:for-each>
 						</table>
 					</div>
-					<div class="col-md-6">
-						<img src="images/adele.jpg" alt="Adele" height="420" width="500" align="right"/> <br /> <br />
+						<div class="col-md-6">
+						<div class="panel panel-default">
+						  <div class="panel-heading">Video</div>
+						  	<div class="panel-body">
+							<iframe width="500" height="315" algin="right" src="https://www.youtube.com/embed/dqt8Z1k0oWQ"></iframe>
+						  </div>
+						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 							<div class="panel panel-default">
-								<div class="panel-heading" role="tab" id="headingTwo">
+									<div class="panel-heading" role="tab" id="headingTwo">
 								  <h4 class="panel-title">
 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									  Upcoming Gigs!
+									  Upcoming Concerts!
 									</a>
 								  </h4>
 								</div>
@@ -139,25 +160,52 @@
 								  <div class="panel-body">
 									<table id="demo" class="table table-striped table-bordered table-hover">
 									</table>
-									<script type="text/javascript" src="js/index.js"></script>
+									<script type="text/javascript" src="js/blues.js"></script>
+									
 								</div>
 							  </div>
 							</div>
 						</div>
-					</div>				
-					<div class="col-md-6">
-					<div class="panel panel-default">
-						  <div class="panel-heading">Video</div>
-						  <div class="panel-body">
-							<iframe  width="500" height="315" align="right"
-								src="https://www.youtube.com/embed/kz99xXhbpXQ">
-							</iframe>
-						  </div>
-						</div>
-					</div>
+					</div>		
+					
+
 				</div>			
-			
-			</div>
+					<h3>This weeks top 10 hits!</h3>
+				
+					<table id="thisWeek" border=".5" class="table table-bordered">
+						   <tr bgcolor="#C8C8C8">
+							  <th style="text-align:left">Postion </th>
+							  <th style="text-align:left">Song Title</th>
+							  <th style="text-align:left">Artist</th>
+							  <th style="text-align:left">Album</th>
+							  <th style="text-align:left">Released Date</th>
+							  
+						   </tr>
+						   <xsl:for-each select="catalog/song">
+							  <tr>
+								 <td>
+									<xsl:value-of select="position" />
+								 </td>
+								 <td>
+									<xsl:value-of select="title" />
+								 </td>
+								 <td>
+									<xsl:value-of select="artist" />
+								 </td>
+								 <td>-
+									<xsl:value-of select="album" />
+								 </td>
+								 <td>
+									<xsl:value-of select="released" />
+								 </td>
+								
+								 
+							  </tr>
+						   </xsl:for-each>
+						</table>
+					
+				<div id="underInput" />
+				</div>
 				<!-- if stuck for video embeddding try this <object width="420" height="315"
 				data="http://www.youtube.com/embed/XGSy3_Czz8k">
 				</object>-->
