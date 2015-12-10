@@ -13,7 +13,6 @@ $proc->importStyleSheet($xsl); // attach the xsl rules
 
 echo $proc->transformToXML($xml);
 
-<<<<<<< HEAD
 ?> 
 <!--=======-->
 
@@ -36,3 +35,5 @@ echo $proc->transformToXML($xml);
 <!--?>-->
 
 <!-->>>>>>> e155b1cf6facb163e0b71baa7e00b3b2f2f26099-->
+
+

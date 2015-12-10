@@ -103,5 +103,28 @@
   $doc->save("contact_form.xml");
    echo "<script>alert('Hello')</script>";
    header('Location:/index.php?');
+   
+  /* writeRSS();
+function writeRSS(){
+    if (file_exists('rss.xml')) {
+        
+          $fname = $_POST["name"];
+          $femail = $_POST["email"];
+          $fphone = $_POST["phone"];
+          $fmessage = $_POST["message"];
+
+        
+        $title = $fmessage;
+        $description = $fname.", ".$email. ", ".$fphone;
+        
+        //loads the xml and returns a simplexml object
+        $rssxml = simplexml_load_file('rss.xml');
+        $newChild = $rssxml->channel->addChild('item');
+        $newChild->addChild('title', $title);
+        $newChild->addChild('link', 'product.xml');
+        $newChild->addChild('description', $description);
+        file_put_contents('rss.xml', $rssxml->asXML());
+    }
+    */
   
 ?>
