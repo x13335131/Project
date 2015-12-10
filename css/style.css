@@ -46,6 +46,14 @@ line-height:0;
 .clearfix{
 	clear:both;
 }
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
+
 
 #container{
 	width:340px;

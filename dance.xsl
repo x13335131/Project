@@ -2,11 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
 <html>
-	<head>
-		
-		<title>Dance</title>
-		
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<head>
+<meta charset="UTF-8"/>
+<title>Top 10 Music Hits</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
@@ -19,8 +18,38 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.min.js" type="text/JavaScript"></script>
+		<link rel="stylesheet" href="css/dance.css" type="text/css"/>
+		<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+		<script type="text/javascript">
 
-		<script> 
+	
+	$(function(){
+			
+			$('#play').click(function() { $('#slider').cycle('resume'); return false; }
+										
+										);
+			
+			$('#pause').click(function() { $('#slider').cycle('pause'); return false; });
+	
+	
+	$('#slider').cycle({
+	
+		fx:		'scrollHorz',
+		next:	'#next',
+		prev:	'#prev',
+		pager:	'#pager',
+		timeout: 3000,
+		speed: 900,
+		
+		
+		
+	
+	});
+});
+	
+	</script>
+			<script> 
 		$(document).ready(function(){
 			$("#flip").click(function(){
 				$("#panel").slideToggle("slow");
@@ -31,18 +60,22 @@
 		<script>
 		$(document).ready(function(){
 			$("#thisWeek").fadeToggle("slow");
-				$("img").fadeToggle("slow");
 			$("button").click(function(){
 				$("#thisWeek").fadeToggle("slow");
-				$("img").fadeToggle("slow");
 				
 			});
 		});
 		</script>
-				
-	</head>
-	<body>		
-		<nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+	
+
+	
+	
+	
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
@@ -55,8 +88,9 @@
 					<a class="navbar-brand" href="#page-top">TMH</a>
 				</div>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
+				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="navbar">
+					<!-- menu navigation -->
 					<ul class="nav navbar-nav navbar-right">
 						<li class="hidden">
 							<a href="#page-top"></a>
@@ -71,10 +105,10 @@
 							<a href="pop.php">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.php">Blues</a>
+							 <a href="blues.php">R &amp; B</a>
 						</li>
 						<li class="page-scroll">
-							<a href="player.php"> Audio Player</a>
+							<a href="player.php">Audio Player</a>
 						</li>
 					</ul>
 				</div>
@@ -83,24 +117,119 @@
 			<!-- /.container-fluid -->
 		</nav>
 
-		<div class="container">            
-			<!--main piece-->
+<div class="container">
+<div id="hero">
+	
+
+				<div id="pager"></div>
+				<div id="pause">asymp</div>
+				<div id="play">Delta</div>
+				<div id="next">rang</div>
+				<div id="prev">lang</div>
+				
+				<div id="slider">
+					
+					
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/Discovery.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+								<button class="btn btn-primary" >Click to reveal this weeks top 10!</button>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+						
+						
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/JustBe.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+							
+								<button class="btn btn-primary">Click to reveal this weeks top 10!</button>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/FatOfTheLand.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/SecondToughestInTheInfants.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/Faithless2.0.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/TotalMusicDanceClassicsVol1.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/Discovery.jpg"/>
+							<div class="info">
+								<H2>Album Name</H2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/ForAnAngel.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/Xpander.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+						<div id="items">
+						<img src="images/danceAlbumCovers/GreatestHits.jpg"/>
+							<div class="info">
+								<h2>Album Name</h2>
+								<p>I AM gOING tO STICK BUTTON HERE TO LOAD UP ALBUM TRACKLIST</p>
+							</div><!--End-Info-->
+					</div><!--End-Of-items-->
+					
+				</div><!--End-Of-Slider-->
+			</div><!--End-Of-Hero-->
+				</div>
 			<div id='main'>
-			
-				<p>Hello and welcome to *website name*. Here we love music! keep up to date with the latest hits, 
-				check in on our weekly top 10 and find out more about upcoming gigs!!</p>
-				<h3>Our top dance hits!</h3>
+				
 			
 				<div class="row">
 					<div class="col-md-6">
-						<button class="btn btn-primary">Click to reveal this weeks top 10!</button><br /><br />
-						<table id="thisWeek" border=".5" class="table table-bordered">
+						<br /><br />
+						<table id="thisWeek" border=".5" class="table table-bordered" >
 						   <tr bgcolor="#C8C8C8">
-							  <th style="text-align:left">Position</th>
-							  <th style="text-align:left">Song Title</th>
-							  <th style="text-align:left">Artist</th>
-							  <th style="text-align:left">Album</th>
-							  <th style="text-align:left">Released Date</th>
+							  <th style="text-align:center">Position</th>
+							  <th style="text-align:center">Song Title</th>
+							  <th style="text-align:center">Artist</th>
+							  <th style="text-align:center">Genre</th>
 							  
 						   </tr>
 						   <xsl:for-each select="catalog/song">
@@ -115,21 +244,17 @@
 									<xsl:value-of select="artist" />
 								 </td>
 								 <td>
-									<xsl:value-of select="album" />
+									<xsl:value-of select="genre" />
 								 </td>
-								 <td>
-									<xsl:value-of select="released" />
-								 </td>
-								
 								 
 							  </tr>
 						   </xsl:for-each>
 						</table>
 					</div>
-					<div class="col-md-6">
-						<img src="images/MJ.png" alt="Michael Jackson" height="420" width="500" align="right"/> <br /> <br />
-					</div>
+						
+					
 				</div>
+<<<<<<< HEAD
 				<div class="row">
 					<div class="col-md-6">
 					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -163,14 +288,16 @@
 	
 					</div>
 				</div>			
+=======
+				</div>
+				
+				
+				
+				
+>>>>>>> b542c0e404249410bceac775a69fdaa08f7abc08
 			
-			</div>
-				<!-- if stuck for video embeddding try this <object width="420" height="315"
-				data="http://www.youtube.com/embed/XGSy3_Czz8k">
-				</object>-->
-
-			</div>
-         </body>
+			
+		</body>
       </html>
    </xsl:template>
 </xsl:stylesheet>
