@@ -71,7 +71,7 @@
 							<a href="pop.php">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.php">Blues</a>
+							 <a href="blues.php">R &amp; B</a>
 						</li>
 						<li class="page-scroll">
 							<a href="player.php">Audio Player</a>
@@ -199,10 +199,7 @@
 							  src="MP3files/mj.mp3"/>
 						</audio> <br /> <br />
  
- 
- 
- 
-				
+
 						<img src="images/MJ.png" alt="Michael Jackson" height="420" width="500" align="right"/> <br /> <br />
 					</div>
 				</div>
@@ -238,14 +235,21 @@
 						</div>
 					</div>
 				</div>			
-				
 			</div>
-				<!-- if stuck for video embeddding try this <object width="420" height="315"
-				data="http://www.youtube.com/embed/XGSy3_Czz8k">
-				</object>-->
-
 			</div>
          </body>
+         	<div class="add" style="text-align:center;">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" alt="" /></a>
+					<a href="https://accounts.google.com"><img src="images/googlep.png" alt="" /></a>
+					<a href="https://twitter.com/"><img src="images/twitter.png" alt="" /></a>
+					<a href="https://www.youtube.com/"><img src="images/youtube.png" alt="" /></a>
+			</div>
+			<div class="wrapper row3">
+				<footer id="copyright" class="clear">
+					 <p class="fl_left">Copyright 2015 - All Rights Reserved - <a href="index.xsl"> TMH </a></p>
+					 <p class="fl_right">Design by Louise,Bdoor and Paul </p>
+			</footer>
+		</div>
       </html>
    </xsl:template>
 </xsl:stylesheet>

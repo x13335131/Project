@@ -48,4 +48,13 @@
     <phone>0854577894</phone>
     <message>wwooooppp</message>
   </contact>
+<<<<<<< HEAD
+=======
+  <contact>
+    <name></name>
+    <email></email>
+    <phone></phone>
+    <message></message>
+  </contact>
+>>>>>>> bb67ef9362a562a16682c539757081e1b8ed7c7a
 </contact_form>

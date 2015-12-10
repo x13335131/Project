@@ -80,7 +80,7 @@
 							<a href="pop.php">Pop</a>
 						</li>
 						<li class="page-scroll">
-							 <a href="blues.php">Blues</a>
+							 <a href="blues.php">R &amp; B</a>
 						</li>
 						<li class="page-scroll">
 							<a href="player.php">Audio Player</a>
@@ -137,7 +137,7 @@
 					</div>
 					<!--audio player-->
 					<div class="col-md-6">
-						<img src="images/adele.jpg" alt="Adele" height="420" width="500" align="right"/> <br /> <br />
+						<img src="images/adele.jpg" alt="Adele" height="550" width="550" align="right"/> <br /> <br />
 					</div>
 					</div>
 						<div class="row">
@@ -148,25 +148,25 @@
 										  <h4 class="panel-title">
 										  	<!-- Upcoming gigs section-->
 											<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									  			Upcoming Gigs!
+									  			<b>Upcoming Gigs! </b>
 											</a>
 								  	    	</h4>
 										</div>
-								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-								  <div class="panel-body">
-									<table id="demo" class="table table-striped table-bordered table-hover">
-									</table>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								  		<div class="panel-body">
+										<table id="demo" class="table table-striped table-bordered table-hover">
+										</table>
 									<script type="text/javascript" src="js/index.js"></script>
 								</div>
 							  </div>
 							</div>
 						</div>
-						 
-					</div>
-					
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9526.77703816103!2d-6.243568!3d53.348729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d51b774ee7fa935!2sNational+College+of+Ireland!5e0!3m2!1sen!2sie!4v1417742188881" width="555" height="481" style="border:1"></iframe>
+
+				</div>
 					<div class="col-md-6">
 					<div class="panel panel-default">
-						  <div class="panel-heading">Video</div>
+						  <div class="panel-heading"> <b> Video </b> </div>
 						  <div class="panel-body">
 							<iframe  width="500" height="315" align="right"
 								src="https://www.youtube.com/embed/kz99xXhbpXQ">
@@ -176,7 +176,7 @@
 						</div>
 						 <script type = "text/javascript">
        
-           function validateForm() {
+           					function validateForm() {
                                 var name = document.forms["contactForm"]["name"].value;
                                 var email = document.forms["contactForm"]["email"].value;
                                 var phone = document.forms["contactForm"]["phone"].value;
@@ -212,10 +212,10 @@
                                 }
                                 else return false;
                             }
-</script>
-<h4>Want to be in for a chance to win 2 Adele tickets for her recently announced sold out gig in the 3arena on March 4th 2016? 
-Well heres your chance to get them! Just fill out the form below and your reason as to why we should pick you! Winner announced Saturday December 12th! Good Luck! </h4>
-<form name="contactForm" action="contact.php" role="form" method="post" onsubmit="return validateForm()">
+					</script>
+						<h4>Want to be in for a chance to win 2 Adele tickets for her recently announced sold out gig in the 3arena on March 4th 2016? 
+							Well heres your chance to get them! Just fill out the form below and your reason as to why we should pick you! Winner announced Saturday December 12th! Good Luck! </h4>
+							<form name="contactForm" action="contact.php" role="form" method="post" onsubmit="return validateForm()">
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Name</label>
@@ -238,20 +238,25 @@ Well heres your chance to get them! Just fill out the form below and your reason
                                 <input type="hidden" name="save" value="contact"/>
                                 <button type="submit" class="btn btn-default">Submit</button>
                             </div>
-                        </div>
-                    </form>
-                
-            
+                        	</div>
+                		 </form>
 					</div>
 					<iframe src="https://project-x13335131.c9users.io/rss.php"></iframe>
 				</div>			
-			
 			</div>
-				<!-- if stuck for video embeddding try this <object width="420" height="315"
-				data="http://www.youtube.com/embed/XGSy3_Czz8k">
-				</object>-->
-
 			</div>
+			<div class="add" style="text-align:center;">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" alt="" /></a>
+					<a href="https://accounts.google.com"><img src="images/googlep.png" alt="" /></a>
+					<a href="https://twitter.com/"><img src="images/twitter.png" alt="" /></a>
+					<a href="https://www.youtube.com/"><img src="images/youtube.png" alt="" /></a>
+					</div>
+					<div class="wrapper row3">
+					  <footer id="copyright" class="clear">
+					    <p class="fl_left">Copyright 2015 - All Rights Reserved - <a href="index.xsl"> TMH </a></p>
+					    <p class="fl_right">Design by Louise,Bdoor and Paul </p>
+					  </footer>
+				</div>
          </body>
       </html>
    </xsl:template>
