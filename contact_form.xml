@@ -48,13 +48,16 @@
     <phone>0854577894</phone>
     <message>wwooooppp</message>
   </contact>
-<<<<<<< HEAD
-=======
   <contact>
-    <name></name>
-    <email></email>
-    <phone></phone>
-    <message></message>
+    <name>lou</name>
+    <email>loulou@gmail.com</email>
+    <phone>0866666223</phone>
+    <message>cant wait</message>
   </contact>
->>>>>>> bb67ef9362a562a16682c539757081e1b8ed7c7a
+  <contact>
+    <name>paul</name>
+    <email>pauly@gmail.com</email>
+    <phone>0896632323</phone>
+    <message>Give me a ticket??</message>
+  </contact>
 </contact_form>
