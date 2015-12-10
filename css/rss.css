@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-body{ 
-font-family: verdana, arial;
-}
-
-    
-=======
 channel link, channel language, channel copyright, channel managingEditor, channel webMaster, channel docs, channel lastBuildDate {
 	display:none;
 }
@@ -82,4 +75,8 @@ channel item pubDate {
 	font-size:86%;
 	padding:0 0.5em;
 }
->>>>>>> bb67ef9362a562a16682c539757081e1b8ed7c7a
+body{ 
+font-family: verdana, arial;
+}
+
+    

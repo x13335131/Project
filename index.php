@@ -34,9 +34,6 @@ echo $proc->transformToXML($xml);
 <!--echo $feedData;-->
 <!--?>-->
 
-<<<<<<< HEAD
-<!-->>>>>>> e155b1cf6facb163e0b71baa7e00b3b2f2f26099-->
 
 
-=======
->>>>>>> bb67ef9362a562a16682c539757081e1b8ed7c7a
+

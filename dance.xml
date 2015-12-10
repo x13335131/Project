@@ -1,84 +1,800 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="dance.xsl" type="text/xsl"?>
 <catalog>
-	<song>
-		<position>1</position>
-		<title>Thriller</title>
-		<artist>Michael Jackson</artist>
-		<album>Studio Album</album>
-		<released>1982</released>
+	<album id="a1">
+		<song>
+		<no>1</no>
+		<title>One More Time</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+		
 		
 	</song>
 	<song>
-		<position>2</position>
-		<title>I Want It That Way</title>
-		<artist>Backstreet Boys</artist>
-		<album>Millennium</album>
-		<released>1999</released>
+		<no>2</no>
+		<title>Aerodynamic</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+		
 		
 	</song>
 	<song>
-		<position>3</position>
-		<title>Billie Jean</title>
-		<artist>Michael Jackson</artist>
-		<album>Thriller</album>
-		<released>1982</released>
+		<no>3</no>
+		<title>digital Love</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+	
 		
 	</song>
 	<song>
-		<position>4</position>
-		<title>Bad</title>
-		<artist>Michael Jackson</artist>
-		<album>Bad</album>
-		<released>1987</released>
-	</song>
-	<song>
-		<position>5</position>
-		<title>Poker Face</title>
-		<artist>Lady Gaga</artist>
-		<album>The Fame</album>
-		<released>2008</released>
+		<no>4</no>
+		<title>Crescendolls</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+	
 		
 	</song>
 	<song>
-		<position>6</position>
-		<title>I Will Always Love You</title>
-		<artist>Whitney Houston</artist>
-		<album>The Body Guard</album>
-		<released>2000</released>
+		<no>5</no>
+		<title>Nightvision</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+		<rating>5</rating>
 		
 	</song>
 	<song>
-		<position>7</position>
-		<title>Written In The Stars</title>
-		<artist>Tinie Tempah</artist>
-		<album>Disc-Overy</album>
-		<released>2010</released>
+		<no>6</no>
+		<title>Superheroes</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+
 		
 	</song>
 	<song>
-		<position>8</position>
-		<title>Call Me Maybe</title>
-		<artist>Carly Rae Jepsen</artist>
-		<album>Curiosity</album>
-		<released>2011</released>
+		<no>7</no>
+		<title>High Life</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+
 		
 	</song>
 	<song>
-		<position>9</position>
-		<title>Baby One More Time</title>
-		<artist>Britney Spears</artist>
-		<album>Studio Album</album>
-		<released>1999</released>
+		<no>8</no>
+		<title>Something About Us</title>
+		<time>3;51</time>
+		<price>€1.29</price>
+
 		
 	</song>
 	<song>
-		<position>10</position>
-		<title>Party In The U.S.A</title>
-		<artist>Miley Cyrus</artist>
-		<album>The Time Of Our Lives</album>
-		<released>2009</released>
+		<no>9</no>
+		<title>Voyager</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+
 		
 	</song>
+	<song>
+		<no>10</no>
+		<title>Face to Face</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+
+		
+	</song>
+	</album>
+	
+	
+	<album id="a2">
+		<song>
+		<no>1</no>
+		<title>Forever Today</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>Love Comes Again</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>Traffic</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Sweet Misery</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+	
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Nyana</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>UR</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>Walking On Clouds</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+
+		
+	</song>
+	<song>
+		<no>8</no>
+		<title>A Tear in the Open</title>
+		<time>3;51</time>
+		<price>€1.29</price>
+
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Just Be</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+
+		
+	</song>
+	<song>
+		<no>10</no>
+		<title>Adiago for Strings</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+
+		
+	</song>
+	</album>
+	
+	<album id="a3">
+		<song>
+		<no>1</no>
+		<title>Smack My B*tch Up</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>Breathe</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>Diesel Power</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Funky Sh*t</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Serial Killer</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>Mindfields</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>Narayan</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+
+		
+	</song>
+	<song>
+		<no>8</no>
+		<title>Firestarter</title>
+		<time>3:51</time>
+		<price>€1.29</price>
+
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Climbatize</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>10</no>
+		<title>Fuel My Fire</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+
+		
+	</song>
+	</album>
+	
+	<album id="a4">
+		<song>
+		<no>1</no>
+		<title>To Dream of Love</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>Banstyle</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+		
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>Confusion the Waitress</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+		
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Rowla</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+		
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Pearls Girl</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+		
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>Air Towel</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+		
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>Blueski</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+		<rating>5</rating>
+		
+	</song>
+	<song>
+		<no>8</no>
+		<title>Stagger</title>
+		<time>3:51</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Born Slippy</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>10</no>
+		<title>Rez</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	</album>
+	
+	<album id="a5">
+		<song>
+		<no>1</no>
+		<title>Insomnia 2.0 (Avicii Extended Remix)</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>We Come 1 2.0 (Armin Van Buuren Remix)</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+	
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>God Is a Dj (Tiesto Remix)</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Muhammad Ali 2.0 (High Contrast Remix)</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Salvea Mea 2.0(Above and Beyond Remix)</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+	
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>Not Going Home 2.0 ( Eric Prydz Remix</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>Music Matters 2.0 (Axwell Remix)</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+	
+	</song>
+	<song>
+		<no>8</no>
+		<title>I was There</title>
+		<time>3;51</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Miss You Less, See You More (Purple Disco Machine Remix)</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>10</no>
+		<title>Tarantula 2.0 (Booka Shade Remix)</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	</album>
+	
+	<album id="a6">
+		<song>
+		<no>1</no>
+		<title>Music Sounds Better With You</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>Show Me Love</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+	
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>Dreams</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Missing (Todd Terry Remix)</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+	
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Castles in The Sky</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+	
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>Gypsy Woman(La Da Dee)</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+		
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>Above the Clouds</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+		
+	</song>
+	<song>
+		<no>8</no>
+		<title>Nobodys Supposed To Be Here (Hex Hector Club Mix)</title>
+		<time>3;51</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Red Alert (Jazz Radio Mix)</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+	
+	</song>
+	<song>
+		<no>10</no>
+		<title>I see You Baby (Fatboy Slim Remix)</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+		
+		
+	</song>
+	</album>
+	
+	<album id="a7">
+		<song>
+		<no>1</no>
+		<title>One More Time</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+		
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>Aerodynamic</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+		
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>digital Love</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Crescendolls</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+	
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Nightvision</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+	
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>Superheroes</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+		
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>High Life</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>8</no>
+		<title>Something About Us</title>
+		<time>3;51</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Voyager</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+		
+		
+	</song>
+	<song>
+		<no>10</no>
+		<title>Face to Face</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	</album>
+	
+	<album id="a8">
+		<song>
+		<no>1</no>
+		<title>For An Angel</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+		
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>W-Werk</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+	
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>Way Out West</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Ashtrax</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+		
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Angel</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+		
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>Silent Hills</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>Transition</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>8</no>
+		<title>Traffic</title>
+		<time>3;51</time>
+		<price>€1.29</price>
+		
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Higher State Of Conciousness</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>10</no>
+		<title>Lonely Chill</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+		
+		
+	</song>
+	</album>
+	
+	<album id="a9">
+		<song>
+		<no>1</no>
+		<title>Xpander</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+		
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>Xpander (edit)</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+		
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>Belfunk</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Rabbitweed</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+		
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Baja</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+	
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>Superheroes</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+		
+		
+	</song>
+	</album>
+	
+	<album id="a10">
+		<song>
+		<no>1</no>
+		<title>The Rockafeller Shank</title>
+		<time>5:20</time>
+		<price>€0.99</price>
+		
+		
+	</song>
+	<song>
+		<no>2</no>
+		<title>Praise You</title>
+		<time>3:27</time>
+		<price>€1.99</price>
+	
+		
+	</song>
+	<song>
+		<no>3</no>
+		<title>Brimful of Asha</title>
+		<time>4:58</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>4</no>
+		<title>Weapon Of Choice</title>
+		<time>3:31</time>
+		<price>€0.79</price>
+	
+		
+	</song>
+	<song>
+		<no>5</no>
+		<title>Gangsta Trippin</title>
+		<time>1:44</time>
+		<price>€0.49</price>
+	
+		
+	</song>
+	<song>
+		<no>6</no>
+		<title>I See You Baby</title>
+		<time>3:57</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>7</no>
+		<title>Wonderful Night</title>
+		<time>3:22</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>8</no>
+		<title>Right Here, Right Now</title>
+		<time>3;51</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	<song>
+		<no>9</no>
+		<title>Going Out Of My Head</title>
+		<time>3:57</time>
+		<price>€0.99</price>
+	
+		
+	</song>
+	<song>
+		<no>10</no>
+		<title>Sunset (Bird of Pray)</title>
+		<time>3:58</time>
+		<price>€1.29</price>
+	
+		
+	</song>
+	</album>
+	
 </catalog>
 
