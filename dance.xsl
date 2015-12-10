@@ -132,7 +132,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 							<div class="panel panel-default">
 								<div class="panel-heading" role="tab" id="headingTwo">
 								  <h4 class="panel-title">
